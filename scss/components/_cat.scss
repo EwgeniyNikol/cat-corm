@@ -1,0 +1,62 @@
+.cat {
+  width: 320px;  
+}
+
+.cat__wrap {
+    margin: 0 auto 138px auto;
+    height: 302px;
+    text-align: center;
+    background-image: url("../images/fon_cat.png");
+    background-image: -webkit-image-set(
+        url("../images/fon_cat.webp") 1x,
+        url("../images/fon_cat@2x.webp") 2x
+    );
+    position: relative;
+}
+
+.cat__title { 
+    padding-top: 26px;
+    font-family: "Oswald", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 36px;
+    color: #FFFFFF;   
+    margin: 0 0 25px 0; 
+}
+
+.cat__ariziv {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.cat__picture {
+    position: absolute;
+    left: 20px;
+    top: 230px;
+}
+
+.cat_button {   
+    width: 280px; 
+    height: 40px;   
+    border: none;
+    background: #68B738;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.cat_button-text {    
+    margin: 0 auto;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;  
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}

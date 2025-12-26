@@ -1,0 +1,126 @@
+.example {
+    width: 320px;
+    background: #EAEAEA;
+}
+
+.example__wrap {
+    margin: 0 auto;    
+    width: 280px;
+    position: relative;
+}
+
+.example__title {
+    padding: 25px 0px 0 0px;
+    margin: 0 0 38px 0 !important;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 40px;
+    color: #000000;
+}
+
+.example__text {
+    margin: 0 0 19px 0;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #444444;
+}
+
+.example__rip{
+    display: flex;
+    gap: 32px; 
+    margin-bottom:33px;   
+    
+}
+
+.example__weight {
+    display: flex;
+    width: 124px;
+    height: 56px;
+    border: 1px solid #CDCDCD;
+    align-items: center;
+    justify-content: center;
+}
+
+.example__weight-namber {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    text-transform: uppercase; 
+    white-space: nowrap;   
+}
+
+.example__weight-text {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #444444;    
+}
+
+.example__snup {
+    display: flex;
+    position: absolute;
+    left: 22px;
+    top: 278px;
+    width: 77px; 
+    align-items: center;
+    text-align: center; 
+    opacity: 2;
+    background: #EAEAEA;
+}
+
+.example__weight-text {   
+    width: 74px; 
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #444444;
+
+}
+
+.example__snup2 {
+    position: absolute;
+    left: 181px;
+    top: 278px;    
+}
+
+.example__costs { 
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.example__slider {
+    display: flex;
+    position: relative;
+    padding-bottom: 40px;
+}
+
+.example__curtain {
+    position: absolute;
+    left:120px;
+
+}

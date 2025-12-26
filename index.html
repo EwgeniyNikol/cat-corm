@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="scss/normalize.css ">
+    <link rel="stylesheet" href="scss/main.css ">  
+    <link href="" rel="stylesheet">  
+</head>
+<body>
+    <header class="header">
+        <div class="header__wrap">
+            <a class="header__logo">
+                <picture class="header__picture">
+                    <source type="image/webp" srcset=" images/logo.webp 1x, images/logo@2x.webp 2x">
+                    <img src="images/logo.png" srcset="images/logo@2x.png 2x" alt="изображение логотипа компании" class="header__logo-img">
+                </picture>
+                <picture class="header__picture">
+                    <source type="image/webp" srcset=" images/logo_text.webp 1x, images/logo_text@2x.webp 2x">
+                    <img src="images/logo_text.png" srcset="images/logo_text@2x.png 2x" alt="надпись логотипа компании" class="header__logo-text">
+                </picture>
+            </a>            
+            <div class="header__hamburger"> 
+                <span class="header__bar"></span>
+                <span class="header__bar"></span>
+                <span class="header__bar"></span>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="cat">
+            <div class="cat__wrap">
+                <h1 class="cat__title">Функциональное питание для котов</h1>
+                <h3 class="cat__ariziv">Занялся собой? Займись котом!</h3>
+            </div>
+            <picture class="cat__picture">
+                <source type="image/webp" srcset=" images/cat_mug.webp 1x, images/cat_mug@2x.webp 2x">
+                <img src="images/cat_mug.png" srcset="images/cat_mug@2x.png 2x" alt="надпись логотипа компании" class="cat-text">
+            </picture>        
+            <button class="cat_button">
+                <h2 class="cat_button-text"> подобрать программу </h2>
+            </button>
+        </section>
+        <section class="couse">
+            <div class="couse__wrap">
+                <div class="couse__card">
+                    <h2 class="couse__title">Похудение</h2>
+                    <p class="couse__text">Ваш кот весит больше собаки и почти утратил способность лазить по деревьям? 
+                         Пора на диету! Cat Energy Slim поможет вашему питомцу сбросить лишний вес.
+                    </p>
+                    <div class="couse__block">
+                        <a href="#" class="couse__catalog">
+                            <span class="couse__span">Каталог slim</span>
+                            <svg class="couse__strelka" viewBox="0 0 24 12" width="24" height="12" >
+                                <use href="images/sprite.svg#strelka"></use>
+                            </svg>                       
+                        </a>
+                    </div>
+                    <div class="couse__icon">
+                        <a class="couse__cat-sits">
+                            <svg class="cat-sits" width="36" height="50" viewBox="0 0 36 50" >
+                                <use href="images/sprite.svg#cat-sits"></use>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="couse__card">
+                    <h2 class="couse__title">Набор массы</h2>
+                    <p class="couse__text">Заработать авторитет среди дворовых котов и даже собак?
+                         Серия Cat Energy Pro поможет вашему коту нарастить необходимые мышцы!
+                    </p>
+                    <div class="couse__block">
+                        <a href="#" class="couse__catalog">
+                            <span class="couse__span">Каталог Pro</span>
+                            <svg class="couse__strelka" viewBox="0 0 24 12" width="24" height="12" >
+                                <use href="images/sprite.svg#strelka"></use>
+                            </svg>                       
+                        </a>
+                    </div>
+                    <div class="couse__icon">
+                        <a class="couse__cat-sits">
+                            <svg class="cat-tigr" width="66" height="28" viewBox="0 0 66 28" >
+                                <use href="images/sprite.svg#cat-tigr"></use>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="works">
+            <div class="works__wrap">
+                <h2 class="works__title">Как это работает</h2>
+                <div class="works__card">
+                    <a class="works_icon">
+                        <svg class="works_sheet" width="25" height="28" viewBox="0 0 25 28" >
+                            <use href="images/sprite.svg#sheet"></use>
+                        </svg>
+                    </a>
+                    <div class="works__wrap-text">
+                        <p class="works__text">Функциональное питание содержит только полезные питательные вещества.</p>
+                    </div>
+                </div>
+                <div class="works__card">
+                    <a class="works_icon">
+                        <svg class="works_sheet" width="26" height="29" viewBox="0 0 26 29" >
+                            <use href="images/sprite.svg#stakan"></use>
+                        </svg>
+                    </a>
+                    <div class="works__wrap-text">
+                        <p class="works__text">Выпускается в виде порошка,который нужно лишь залить кипятком и готово.</p>
+                    </div>
+                </div>
+                <div class="works__card">
+                    <a class="works_icon">
+                        <svg class="works_sheet" width="25" height="30" viewBox="0 0 25 30" >
+                            <use href="images/sprite.svg#vilka"></use>
+                        </svg>
+                    </a>
+                    <div class="works__wrap-text">
+                        <p class="works__text">Замените один-два приема обычной еды на наше функциональное питание.</p>
+                    </div>
+                </div>
+                <div class="works__card">
+                    <a class="works_icon">
+                        <svg class="works_sheet" width="26" height="32" viewBox="0 0 26 32" >
+                            <use href="images/sprite.svg#time"></use>
+                        </svg>
+                    </a>
+                    <div class="works__wrap-text">
+                        <p class="works__text">Уже через месяц наслаждайтесь изменениями к лучшему вашего питомца!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="example">
+            <div class="example__wrap">
+                <h2 class="example__title">Живой пример</h2>
+                <div class="example__text-wrap">
+                    <p class="example__text">Борис сбросил 5 кг за 2 месяца, просто заменив свой обычный
+                         корм на Cat Energy Slim. Отличный результат без изнуряющих тренировок! При этом он
+                         не менял своих привычек и по-прежнему спит по 16 часов в день. 
+                    </p>
+                </div>
+                <div class="example__rip">
+                    <div class="example__weight">
+                        <span class="example__weight-namber">5 кг</span>
+                    </div>
+                    <div class="example__weight">
+                        <span class="example__weight-namber">60 дней</span>
+                    </div>
+                    <div class="example__snup">
+                         <span class="example__weight-text">снижение веса</span>                
+                    </div> 
+                    <div class="example__snup example__snup2">
+                         <span class="example__weight-text">затрачено времени</span>                
+                    </div>
+                </div>
+                <h3 class="example__costs">Затраты на питание: 15 000 РУБ.</h3>
+                <div class="example__slider">
+                    <picture class="example__picture">
+                        <source type="image/webp" srcset=" images/cat_big.webp 1x, images/cat_big@2x.webp 2x">
+                        <img src="images/cat_big.png" class="example__bigcat" srcset="images/cat_big@2x.png 2x" alt="фото полного кота">
+                    </picture>  
+                    <picture class="example__picture">
+                        <source type="image/webp" srcset=" images/cat_lit.webp 1x, images/cat_lit@2x.webp 2x">
+                        <img src="images/cat_lit.png" class="example__litcat" srcset="images/cat_lit@2x.png 2x" alt="фото худого кота">
+                    </picture> 
+                    <picture class="example__picture">
+                        <source type="image/webp" srcset=" images/curtain.webp 1x, images/curtain@2x.webp 2x">
+                        <img src="images/cat_lit.png" class="example__curtain" srcset="images/curtain@2x.png 2x" alt="фото переключателя">
+                    </picture>                 
+                </div>
+        </section>
+        <section class="cooperation">
+            <div class="cooperation__wrap">
+                <div class="cooperation__wrap-text">
+                    <h2 class="cooperation__title">приглашаем к сотрудничеству дилеров!</h2>
+                    <p class="cooperation__text">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</p>
+                </div>
+                <div class="cooperation__map">
+                     <!-- <picture class="cooperation__map-bg">
+                        <source type="image/webp" srcset=" images/map.webp 1x, images/map@2x.webp 2x">
+                        <img src="images/map.png"  srcset="images/map@2x.png 2x" alt="карта онлайн местоположения" class="map-static">
+                    </picture> -->
+                    <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A258e7ff8f75dc3ed326281c841955e430ca262d28160d1790c6a1e1e7af2af10&amp;source=constructor" 
+                        width="100%" height="362" frameborder="0"> 
+                    </iframe>                    
+                </div>
+                <picture class="cooperation__map-pin">
+                    <source type="image/webp" srcset=" images/map_pin.webp 1x, images/map_pin@2x.webp 2x">
+                    <img src="images/map_pin.png"  srcset="images/map_pin@2x.png 2x" alt="значок местоположения">
+                </picture>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__wrap">
+            <picture class="footer__picture">
+                <source type="image/webp" srcset=" images/logo_text.webp 1x, images/logo_text@2x.webp 2x">
+                <img src="images/logo_text.png" srcset="images/logo_text@2x.png 2x" alt="надпись логотипа компании" class="footer__logo-text">
+            </picture>
+            <div class="footer__icon">
+                <a class="footer__vk_icon" href="#">
+                    <svg class="footer__vk_icon" width="26" height="32" viewBox="0 0 26 32" >
+                        <use href="images/sprite.svg#vk_icon"></use>
+                    </svg>
+                </a>
+                <a class="footer__yotub_icon" href="#">
+                    <svg class="footer__yotub_icon" width="25" height="18" viewBox="0 0 25 18">
+                        <use href="images/sprite.svg#yotub_icon"></use>
+                    </svg>
+                </a>
+                <a class="footer__telegram_icon" href="#">
+                    <svg class="footer__telegram_icon" width="24" height="19" viewBox="0 0 24 19">
+                        <use href="images/sprite.svg#telegram_icon"></use>
+                    </svg>
+                </a>
+            </div>
+            <div class="footer__academ">
+                <a class="footer__academ-text" href="#">
+                    <svg class="footer__academ-text" width="112" height="15" viewBox="0 0 112 15">
+                        <use href="images/sprite.svg#academ_text"></use>
+                    </svg>
+                </a>
+                <a class="footer__academ-icon" href="#">
+                    <svg class="footer__academ-icon" width="168" height="37" viewBox="0 0 168 37">
+                        <use href="images/sprite.svg#academ_icon"></use>
+                    </svg> 
+                </a>            
+            </div>
+        </div>
+    </footer>    
+</body>
+</html>
