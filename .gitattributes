@@ -1,0 +1,18 @@
+# Устанавливаем обработку окончаний строк
+* text=auto
+
+# Бинарные файлы
+*.svg binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+
+# Текстовые файлы
+*.css text
+*.scss text
+*.html text
+*.js text
+*.json text
+*.md text
