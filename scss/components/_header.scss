@@ -1,5 +1,6 @@
 .header {
-    width: 320px;     
+    width: 320px; 
+    position: relative;    
 }
 
 .header__wrap {
@@ -9,7 +10,9 @@
   margin: 0 auto 13px auto;
   justify-content: space-between; 
   padding-top: 13px;
+  position: relative;  
 }
+
 .header__logo {
   text-decoration: none;
   
@@ -27,6 +30,10 @@
     justify-content: space-between;
     cursor: pointer;
     margin-top: 8px;
+    padding: 0;
+    border: none;
+    background: transparent;
+    z-index: 101;
 }
 
 
@@ -34,4 +41,66 @@
     width: 100%;
     height: 2px;
     background: black;
+}
+
+.header__menu {
+    display: none;
+    width: 320px;
+    position: fixed; 
+    top: 51px;
+    left: 0;
+    height: calc(110vh - 51px); 
+    z-index: 100;
+    overflow-y: auto;
+    padding: 0;
+    margin-top: 11px;
+}
+
+
+.header__menu.active {
+    display: block;
+}
+
+.header__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid #eaeaea;
+}
+
+.header__item {
+   border-bottom: 1px solid #eaeaea;
+}
+
+.header__link {
+    display: block;
+    padding: 24px 20px;
+    text-decoration: none;
+    background: white;
+    text-align: center;
+    font-family: 'Oswald', sans-serif; 
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    color: #000000;
+    text-transform: uppercase; 
+}
+
+.header__link:hover,.header__link:focus {
+    background-color: #f8f8f8;
+}
+
+/* Анимация гамбургера */
+.header__hamburger.active .header__bar:nth-child(1) {
+    transform: rotate(45deg) translate(7px, 6px);
+}
+
+.header__hamburger.active .header__bar:nth-child(2) {
+    opacity: 0;
+    transform: scaleX(0);
+}
+
+.header__hamburger.active .header__bar:nth-child(3) {
+    transform: rotate(-45deg) translate(6px, -6px);
 }

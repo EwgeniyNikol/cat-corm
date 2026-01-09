@@ -25,12 +25,26 @@
                <svg class="header__logo-text" width="101" height="18" viewBox="0 0 101 18">
                 <use href="images/sprite.svg#logo_text-header"></use>
                 </svg>
-            </a>        
-            <div class="header__hamburger"> 
+            </a>              
+             <button class="header__hamburger" type="button" aria-label="Открыть меню"
+                    aria-expanded="false" aria-controls="header-menu">
                 <span class="header__bar"></span>
                 <span class="header__bar"></span>
                 <span class="header__bar"></span>
-            </div>
+            </button>
+            <nav class="header__menu" id="header-menu" aria-label="Основное меню">
+                <ul class="header__list">
+                    <li class="header__item">
+                        <a class="header__link" href="#" aria-current="page">главная</a>
+                    </li>
+                    <li class="header__item">
+                        <a class="header__link" href="/catalog">каталог продукции</a>
+                    </li>
+                    <li class="header__item">
+                        <a class="header__link" href="/program">подбор программы</a>
+                    </li>
+                </ul>
+            </nav>
         </div>
     </header>
     <main class="main">
@@ -247,4 +261,5 @@
         </div>
     </footer>    
 </body>
+<script src="cat.js"></script>
 </html>
