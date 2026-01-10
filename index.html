@@ -176,18 +176,39 @@
                 </div>
                 <h3 class="example__costs">Затраты на питание: 15 000 РУБ.</h3>
                 <div class="example__slider">
-                    <picture class="example__picture">
-                        <source type="image/webp" srcset="images/cat_big.webp 1x, images/cat_big@2x.webp 2x">
-                        <img src="images/cat_big.png" class="example__bigcat" srcset="images/cat_big@2x.png 2x" alt="фото полного кота">
-                    </picture>  
-                    <picture class="example__picture">
-                        <source type="image/webp" srcset="images/cat_lit.webp 1x, images/cat_lit@2x.webp 2x">
-                        <img src="images/cat_lit.png" class="example__litcat" srcset="images/cat_lit@2x.png 2x" alt="фото худого кота">
-                    </picture> 
-                    <picture class="example__picture">
-                        <source type="image/webp" srcset="images/curtain.webp 1x, images/curtain@2x.webp 2x">
-                        <img src="images/cat_lit.png" class="example__curtain" srcset="images/curtain@2x.png 2x" alt="фото переключателя">
-                    </picture>                 
+                    <div class="slider__container">
+                        <div class="slider__images">
+                            <div class="slider__image-wrapper slider__image-left">
+                                <picture class="slider__picture">
+                                    <source type="image/webp" srcset="images/cat_mobile-before@1x.webp 1x, images/cat_mobile-before@2x.webp 2x">
+                                    <img src="images/cat_mobile-before@1x.png" class="slider__image" 
+                                        srcset="images/cat_mobile-before@2x.png 2x" alt="Полный кот">
+                                </picture>
+                            </div>
+                            <div class="slider__image-wrapper slider__image-right">
+                                <picture class="slider__picture">
+                                    <source type="image/webp" srcset="images/cat_mobile-after@1x.webp 1x, images/cat_mobile-after@2x.webp 2x">
+                                    <img src="images/cat_mobile-after@1x.png" class="slider__image" 
+                                        srcset="images/cat_mobile-after@2x.png 2x" alt="Худой кот">
+                                </picture>
+                            </div>
+                        </div>
+                        <div class="slider__divider" id="slider-divider">
+                            <button class="slider__handle" type="button" aria-label="Переместить слайдер">
+                                <svg class="slider__line" width="40" height="256" viewBox="0 0 40 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect x="18" width="4" height="256" rx="2" fill="#666666"/>
+                                    <rect x="1" y="109" width="38" height="38" rx="19" fill="white"/>
+                                    <rect x="1" y="109" width="38" height="38" rx="19" stroke="#666666" stroke-width="2"/>
+                                    <path d="M16 119L8 128L16 137V119Z" fill="#666666"/>
+                                    <path d="M32 128L24 119V137L32 128Z" fill="#666666"/>
+                                </svg>
+                                <svg class="slider__arrows" width="24" height="18" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M8 0L0 9L8 18V0Z" fill="#666666"/>
+                                    <path d="M24 9L16 0V18L24 9Z" fill="#666666"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
